@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan</title>
+</head>
+<body>
+    <div>
+        <h2>Profil Saya</h2>
+        <img src="foto.jpg" alt="Foto Saya" width="200">
+        <p>Nama: Reihan Mahendra Sulaksono</p>
+        <p>NIM: 6701220122</p>
+        <p>Kelas: D3SI-46-04</p>
+    </div>
+
+    <div>
+        <h2>Peminjaman Buku</h2>
+        <label for="jumlah">Jumlah:</label>
+        <input type="text" id="jumlah"><br><br>
+        <label for="buku">Pilih Buku:</label>
+        <select id="buku">
+            <option value="sherlock">Sherlock</option>
+            <option value="lupin">Lupin</option>
+            <option value="aladin">Aladin</option>
+            <option value="naruto">Naruto</option>
+        </select><br><br>
+        <button onclick="pinjamBuku()">Pinjam</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
